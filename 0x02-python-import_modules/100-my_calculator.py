@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-
 if __name__ == "__main__":
 
     """Handle basic arithmetic operations."""
@@ -31,3 +30,4 @@ if __name__ == "__main__":
     b = int(sys.argv[3])
 
    print("{} {} {} = {}".format(a, sys.argv[2], b, ops[sys.argv[2]](a, b)))
+
